@@ -4035,7 +4035,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-minidlna=y
           # CONFIG_PACKAGE_luci-app-mjpg-streamer is not set
           # CONFIG_PACKAGE_luci-app-mwan3 is not set
-          CONFIG_PACKAGE_luci-app-nlbwmon=y
+          # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           # CONFIG_PACKAGE_luci-app-noddos is not set
           CONFIG_PACKAGE_luci-app-ntpc=y
           # CONFIG_PACKAGE_luci-app-ocserv is not set
@@ -5253,7 +5253,7 @@ jobs:
           # CONFIG_PACKAGE_netdiscover is not set
           # CONFIG_PACKAGE_netperf is not set
           # CONFIG_PACKAGE_nextdns is not set
-          CONFIG_PACKAGE_nlbwmon=y
+          # CONFIG_PACKAGE_nlbwmon=y is not set
           # CONFIG_PACKAGE_noddos is not set
           # CONFIG_PACKAGE_noping is not set
           # CONFIG_PACKAGE_npc is not set
