@@ -4240,7 +4240,7 @@ jobs:
           # CONFIG_PACKAGE_luci-i18n-minidlna-zh-tw is not set
           # CONFIG_PACKAGE_luci-i18n-nlbwmon-ja is not set
           # CONFIG_PACKAGE_luci-i18n-nlbwmon-ru is not set
-          CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
+          # CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn is not set
           # CONFIG_PACKAGE_luci-i18n-ntpc-ca is not set
           # CONFIG_PACKAGE_luci-i18n-ntpc-cs is not set
           # CONFIG_PACKAGE_luci-i18n-ntpc-de is not set
