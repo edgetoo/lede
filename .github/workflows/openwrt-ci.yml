@@ -65,59 +65,146 @@ jobs:
           CONFIG_TARGET_x86=y
           CONFIG_TARGET_x86_64=y
           CONFIG_TARGET_x86_64_Generic=y
-          # CONFIG_GRUB_IMAGES is not set
-          CONFIG_PACKAGE_adblock=m
+          CONFIG_GNUTLS_ALPN=y
+          CONFIG_GNUTLS_ANON=y
+          CONFIG_GNUTLS_DTLS_SRTP=y
+          CONFIG_GNUTLS_HEARTBEAT=y
+          CONFIG_GNUTLS_OCSP=y
+          CONFIG_GNUTLS_PSK=y
+          CONFIG_LIBCURL_COOKIES=y
+          CONFIG_LIBCURL_FILE=y
+          CONFIG_LIBCURL_FTP=y
+          CONFIG_LIBCURL_HTTP=y
+          CONFIG_LIBCURL_NO_SMB="!"
+          CONFIG_LIBCURL_OPENSSL=y
+          CONFIG_LIBCURL_PROXY=y
+          CONFIG_PACKAGE_acl=y
+          CONFIG_PACKAGE_adblock=y
+          CONFIG_PACKAGE_attr=y
           # CONFIG_PACKAGE_autosamba is not set
+          CONFIG_PACKAGE_avahi-dbus-daemon=y
           CONFIG_PACKAGE_bash=y
+          CONFIG_PACKAGE_ca-bundle=y
+          CONFIG_PACKAGE_dbus=y
           CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuMathTeXGyre=y
           CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuSans=y
           CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuSansCondensed=y
           CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuSansMono=y
           CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuSerif=y
           CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuSerifCondensed=y
-          # CONFIG_PACKAGE_grub2 is not set
+          CONFIG_PACKAGE_git=y
+          CONFIG_PACKAGE_git-http=y
           CONFIG_PACKAGE_gzip=y
+          CONFIG_PACKAGE_jansson=y
           CONFIG_PACKAGE_kcptun-client=y
+          # CONFIG_PACKAGE_kmod-ac97 is not set
           # CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
-          CONFIG_PACKAGE_kmod-sched-connmark=m
-          CONFIG_PACKAGE_libbz2=m
+          CONFIG_PACKAGE_kmod-sched-connmark=y
+          # CONFIG_PACKAGE_kmod-sound-hda-core is not set
+          # CONFIG_PACKAGE_kmod-sound-mpu401 is not set
+          # CONFIG_PACKAGE_kmod-sound-via82xx is not set
+          CONFIG_PACKAGE_kmod-udptunnel4=y
+          CONFIG_PACKAGE_kmod-udptunnel6=y
+          # CONFIG_PACKAGE_kmod-usb-audio is not set
+          CONFIG_PACKAGE_kmod-usb-ehci=y
+          CONFIG_PACKAGE_kmod-usb2=y
+          CONFIG_PACKAGE_kmod-usb3=y
+          CONFIG_PACKAGE_kmod-wireguard=y
+          CONFIG_PACKAGE_libacl=y
+          CONFIG_PACKAGE_libaio=y
+          CONFIG_PACKAGE_libarchive=y
+          CONFIG_PACKAGE_libattr=y
+          CONFIG_PACKAGE_libavahi-client=y
+          CONFIG_PACKAGE_libavahi-dbus-support=y
+          CONFIG_PACKAGE_libbz2=y
           CONFIG_PACKAGE_libcap=y
+          CONFIG_PACKAGE_libcurl=y
+          CONFIG_PACKAGE_libdaemon=y
+          CONFIG_PACKAGE_libdb47=y
+          CONFIG_PACKAGE_libdbus=y
           CONFIG_PACKAGE_libexif=m
+          CONFIG_PACKAGE_libexpat=y
+          CONFIG_PACKAGE_libffi=y
           CONFIG_PACKAGE_libffmpeg-audio-dec=m
           CONFIG_PACKAGE_libflac=m
+          CONFIG_PACKAGE_libgdbm=y
+          CONFIG_PACKAGE_libgmp=y
+          CONFIG_PACKAGE_libgnutls=y
           CONFIG_PACKAGE_libid3tag=m
           CONFIG_PACKAGE_libjpeg=m
+          CONFIG_PACKAGE_liblzma=y
+          CONFIG_PACKAGE_libnettle=y
           CONFIG_PACKAGE_libogg=m
-          CONFIG_PACKAGE_libsqlite3=m
+          CONFIG_PACKAGE_libopenldap=y
+          CONFIG_PACKAGE_libpopt=y
+          CONFIG_PACKAGE_libsasl2=y
+          CONFIG_PACKAGE_libsqlite3=y
+          CONFIG_PACKAGE_libtasn1=y
+          CONFIG_PACKAGE_libtirpc=y
           CONFIG_PACKAGE_libvorbis=m
-          CONFIG_PACKAGE_luci-app-adblock=m
-          CONFIG_PACKAGE_luci-app-minidlna=m
+          CONFIG_PACKAGE_libxml2=y
+          CONFIG_PACKAGE_luci-app-adblock=y
           # CONFIG_PACKAGE_luci-app-nlbwmon is not set
-          CONFIG_PACKAGE_luci-app-qos=m
-          CONFIG_PACKAGE_luci-app-samba=m
-          CONFIG_PACKAGE_luci-app-simple-adblock=m
+          CONFIG_PACKAGE_luci-app-qos=y
+          # CONFIG_PACKAGE_luci-app-samba is not set
+          CONFIG_PACKAGE_luci-app-simple-adblock=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks=y
+          CONFIG_PACKAGE_luci-app-wireguard=y
           # CONFIG_PACKAGE_luci-app-xlnetacc is not set
-          CONFIG_PACKAGE_luci-i18n-adblock-zh-cn=m
-          CONFIG_PACKAGE_luci-i18n-minidlna-zh-cn=m
-          CONFIG_PACKAGE_luci-i18n-qos-zh-cn=m
-          CONFIG_PACKAGE_luci-i18n-samba-zh-cn=m
+          CONFIG_PACKAGE_luci-i18n-adblock-zh-cn=y
+          CONFIG_PACKAGE_luci-i18n-qos-zh-cn=y
+          CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
+          CONFIG_PACKAGE_luci-proto-wireguard=y
           CONFIG_PACKAGE_luci-theme-material=y
           CONFIG_PACKAGE_minidlna=m
           # CONFIG_PACKAGE_nlbwmon is not set
           CONFIG_PACKAGE_ntpclient=y
-          CONFIG_PACKAGE_qos-scripts=m
+          CONFIG_PACKAGE_python3=y
+          CONFIG_PACKAGE_python3-asyncio=y
+          CONFIG_PACKAGE_python3-base=y
+          CONFIG_PACKAGE_python3-cgi=y
+          CONFIG_PACKAGE_python3-cgitb=y
+          CONFIG_PACKAGE_python3-codecs=y
+          CONFIG_PACKAGE_python3-cryptodome=y
+          CONFIG_PACKAGE_python3-ctypes=y
+          CONFIG_PACKAGE_python3-dbm=y
+          CONFIG_PACKAGE_python3-decimal=y
+          CONFIG_PACKAGE_python3-distutils=y
+          CONFIG_PACKAGE_python3-email=y
+          CONFIG_PACKAGE_python3-gdbm=y
+          CONFIG_PACKAGE_python3-light=y
+          CONFIG_PACKAGE_python3-logging=y
+          CONFIG_PACKAGE_python3-lzma=y
+          CONFIG_PACKAGE_python3-multiprocessing=y
+          CONFIG_PACKAGE_python3-ncurses=y
+          CONFIG_PACKAGE_python3-openssl=y
+          CONFIG_PACKAGE_python3-pydoc=y
+          CONFIG_PACKAGE_python3-sqlite3=y
+          CONFIG_PACKAGE_python3-unittest=y
+          CONFIG_PACKAGE_python3-urllib=y
+          CONFIG_PACKAGE_python3-xml=y
+          CONFIG_PACKAGE_qos-scripts=y
           CONFIG_PACKAGE_samba36-server=m
-          CONFIG_PACKAGE_simple-adblock=m
+          CONFIG_PACKAGE_samba4-admin=y
+          CONFIG_PACKAGE_samba4-client=y
+          CONFIG_PACKAGE_samba4-libs=y
+          CONFIG_PACKAGE_samba4-server=y
+          CONFIG_PACKAGE_samba4-utils=y
+          CONFIG_PACKAGE_screen=y
+          CONFIG_PACKAGE_simple-adblock=y
           CONFIG_PACKAGE_srelay=y
+          CONFIG_PACKAGE_tree=y
           CONFIG_PACKAGE_vim-fuller=y
-          # CONFIG_PACKAGE_wsdd2 is not set
+          CONFIG_PACKAGE_wireguard-tools=y
           CONFIG_PACKAGE_zsh=y
+          CONFIG_SAMBA4_SERVER_AD_DC=y
+          CONFIG_SAMBA4_SERVER_AVAHI=y
+          CONFIG_SAMBA4_SERVER_NETBIOS=y
+          CONFIG_SAMBA4_SERVER_VFS=y
+          CONFIG_SAMBA4_SERVER_VFSX=y
           CONFIG_SQLITE_FTS3=y
           CONFIG_SQLITE_RTREE=y
-          # CONFIG_TARGET_IMAGES_PAD is not set
-          # CONFIG_TARGET_ROOTFS_SQUASHFS is not set
 
           EOF
 
@@ -126,7 +213,8 @@ jobs:
       - name: Make download
         run: |
           make download -j8
-          find dl -size -1024c -exec rm -f {} \;
+          find ./dl/ -size -1024c -exec rm -f {} \;
+          df -h
       - name: Compile firmware
         run: |
           make -j$(nproc) || make -j1 V=s
