@@ -98,7 +98,6 @@ jobs:
           CONFIG_PACKAGE_jansson=y
           CONFIG_PACKAGE_kcptun-client=y
           # CONFIG_PACKAGE_kmod-ac97 is not set
-          # CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
           CONFIG_PACKAGE_kmod-sched-connmark=y
           # CONFIG_PACKAGE_kmod-sound-hda-core is not set
           # CONFIG_PACKAGE_kmod-sound-mpu401 is not set
@@ -141,24 +140,23 @@ jobs:
           CONFIG_PACKAGE_libsqlite3=y
           CONFIG_PACKAGE_libtasn1=y
           CONFIG_PACKAGE_libtirpc=y
+          CONFIG_PACKAGE_libuv=y
           CONFIG_PACKAGE_libvorbis=m
+          CONFIG_PACKAGE_libwebsockets-full=y
           CONFIG_PACKAGE_libxml2=y
-          CONFIG_PACKAGE_luci-app-adblock=y
-          # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           CONFIG_PACKAGE_luci-app-qos=y
           # CONFIG_PACKAGE_luci-app-samba is not set
-          CONFIG_PACKAGE_luci-app-simple-adblock=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks=y
+          # CONFIG_PACKAGE_luci-app-upnp is not set
           CONFIG_PACKAGE_luci-app-wireguard=y
+          # CONFIG_PACKAGE_luci-app-wol is not set
           # CONFIG_PACKAGE_luci-app-xlnetacc is not set
-          CONFIG_PACKAGE_luci-i18n-adblock-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-qos-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
           CONFIG_PACKAGE_luci-proto-wireguard=y
+          CONFIG_PACKAGE_luci-ssl-openssl=y
           CONFIG_PACKAGE_luci-theme-material=y
-          CONFIG_PACKAGE_minidlna=m
-          # CONFIG_PACKAGE_nlbwmon is not set
           CONFIG_PACKAGE_ntpclient=y
           CONFIG_PACKAGE_python3=y
           CONFIG_PACKAGE_python3-asyncio=y
@@ -185,26 +183,19 @@ jobs:
           CONFIG_PACKAGE_python3-urllib=y
           CONFIG_PACKAGE_python3-xml=y
           CONFIG_PACKAGE_qos-scripts=y
-          CONFIG_PACKAGE_samba36-server=m
-          CONFIG_PACKAGE_samba4-admin=y
-          CONFIG_PACKAGE_samba4-client=y
-          CONFIG_PACKAGE_samba4-libs=y
-          CONFIG_PACKAGE_samba4-server=y
-          CONFIG_PACKAGE_samba4-utils=y
+          # CONFIG_PACKAGE_samba36-server is not set
           CONFIG_PACKAGE_screen=y
-          CONFIG_PACKAGE_simple-adblock=y
           CONFIG_PACKAGE_srelay=y
           CONFIG_PACKAGE_tree=y
+          CONFIG_PACKAGE_ttyd=y
           CONFIG_PACKAGE_vim-fuller=y
           CONFIG_PACKAGE_wireguard-tools=y
           CONFIG_PACKAGE_zsh=y
-          CONFIG_SAMBA4_SERVER_AD_DC=y
-          CONFIG_SAMBA4_SERVER_AVAHI=y
-          CONFIG_SAMBA4_SERVER_NETBIOS=y
-          CONFIG_SAMBA4_SERVER_VFS=y
-          CONFIG_SAMBA4_SERVER_VFSX=y
           CONFIG_SQLITE_FTS3=y
           CONFIG_SQLITE_RTREE=y
+          CONFIG_PACKAGE_etherwake=y
+          CONFIG_PACKAGE_miniupnpd=y
+          CONFIG_PACKAGE_wsdd2=y
 
           EOF
 
